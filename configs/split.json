@@ -1,0 +1,761 @@
+{
+  "source_dataset": "pi05_block_sidebox_v2_supplement (119 episodes, 53245 frames, 30 Hz)",
+  "method": "9 个起始画面区域分层随机划分；完整 episode 为单位；随机种子 42；目标数量 75/19/25",
+  "seed": 42,
+  "region_boundaries_side_camera_640x480_px": {
+    "x": [
+      290,
+      370
+    ],
+    "y": [
+      80,
+      120
+    ]
+  },
+  "region_names": [
+    "画面上左",
+    "画面上中",
+    "画面上右",
+    "画面中左",
+    "画面中中",
+    "画面中右",
+    "画面下左",
+    "画面下中",
+    "画面下右"
+  ],
+  "region_counts": {
+    "画面上左": 13,
+    "画面上中": 19,
+    "画面上右": 8,
+    "画面中左": 8,
+    "画面中中": 21,
+    "画面中右": 11,
+    "画面下左": 11,
+    "画面下中": 19,
+    "画面下右": 9
+  },
+  "splits": {
+    "train": [
+      3,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      42,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      54,
+      55,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      64,
+      65,
+      70,
+      71,
+      73,
+      75,
+      76,
+      78,
+      80,
+      81,
+      82,
+      87,
+      89,
+      90,
+      91,
+      93,
+      94,
+      95,
+      96,
+      99,
+      101,
+      103,
+      104,
+      110,
+      112,
+      113,
+      114,
+      116,
+      117
+    ],
+    "val": [
+      0,
+      1,
+      9,
+      10,
+      30,
+      36,
+      44,
+      52,
+      53,
+      63,
+      66,
+      67,
+      74,
+      77,
+      86,
+      88,
+      102,
+      109,
+      115
+    ],
+    "test": [
+      2,
+      4,
+      5,
+      24,
+      25,
+      41,
+      43,
+      56,
+      68,
+      69,
+      72,
+      79,
+      83,
+      84,
+      85,
+      92,
+      97,
+      98,
+      100,
+      105,
+      106,
+      107,
+      108,
+      111,
+      118
+    ]
+  },
+  "episodes": [
+    {
+      "episode": 0,
+      "length": 580,
+      "region": "画面中左"
+    },
+    {
+      "episode": 1,
+      "length": 661,
+      "region": "画面上左"
+    },
+    {
+      "episode": 2,
+      "length": 475,
+      "region": "画面上左"
+    },
+    {
+      "episode": 3,
+      "length": 512,
+      "region": "画面中左"
+    },
+    {
+      "episode": 4,
+      "length": 440,
+      "region": "画面中左"
+    },
+    {
+      "episode": 5,
+      "length": 496,
+      "region": "画面中左"
+    },
+    {
+      "episode": 6,
+      "length": 549,
+      "region": "画面下左"
+    },
+    {
+      "episode": 7,
+      "length": 593,
+      "region": "画面下左"
+    },
+    {
+      "episode": 8,
+      "length": 490,
+      "region": "画面下左"
+    },
+    {
+      "episode": 9,
+      "length": 485,
+      "region": "画面中中"
+    },
+    {
+      "episode": 10,
+      "length": 457,
+      "region": "画面中中"
+    },
+    {
+      "episode": 11,
+      "length": 449,
+      "region": "画面中中"
+    },
+    {
+      "episode": 12,
+      "length": 493,
+      "region": "画面下中"
+    },
+    {
+      "episode": 13,
+      "length": 518,
+      "region": "画面下中"
+    },
+    {
+      "episode": 14,
+      "length": 403,
+      "region": "画面下中"
+    },
+    {
+      "episode": 15,
+      "length": 440,
+      "region": "画面上中"
+    },
+    {
+      "episode": 16,
+      "length": 513,
+      "region": "画面上中"
+    },
+    {
+      "episode": 17,
+      "length": 458,
+      "region": "画面上中"
+    },
+    {
+      "episode": 18,
+      "length": 426,
+      "region": "画面中右"
+    },
+    {
+      "episode": 19,
+      "length": 459,
+      "region": "画面中右"
+    },
+    {
+      "episode": 20,
+      "length": 563,
+      "region": "画面中右"
+    },
+    {
+      "episode": 21,
+      "length": 428,
+      "region": "画面下右"
+    },
+    {
+      "episode": 22,
+      "length": 467,
+      "region": "画面下右"
+    },
+    {
+      "episode": 23,
+      "length": 487,
+      "region": "画面下右"
+    },
+    {
+      "episode": 24,
+      "length": 500,
+      "region": "画面上右"
+    },
+    {
+      "episode": 25,
+      "length": 417,
+      "region": "画面上右"
+    },
+    {
+      "episode": 26,
+      "length": 571,
+      "region": "画面上右"
+    },
+    {
+      "episode": 27,
+      "length": 381,
+      "region": "画面上左"
+    },
+    {
+      "episode": 28,
+      "length": 473,
+      "region": "画面上左"
+    },
+    {
+      "episode": 29,
+      "length": 465,
+      "region": "画面上左"
+    },
+    {
+      "episode": 30,
+      "length": 531,
+      "region": "画面中左"
+    },
+    {
+      "episode": 31,
+      "length": 431,
+      "region": "画面上左"
+    },
+    {
+      "episode": 32,
+      "length": 387,
+      "region": "画面上左"
+    },
+    {
+      "episode": 33,
+      "length": 420,
+      "region": "画面上左"
+    },
+    {
+      "episode": 34,
+      "length": 433,
+      "region": "画面上左"
+    },
+    {
+      "episode": 35,
+      "length": 420,
+      "region": "画面上左"
+    },
+    {
+      "episode": 36,
+      "length": 419,
+      "region": "画面上左"
+    },
+    {
+      "episode": 37,
+      "length": 431,
+      "region": "画面中左"
+    },
+    {
+      "episode": 38,
+      "length": 406,
+      "region": "画面中左"
+    },
+    {
+      "episode": 39,
+      "length": 435,
+      "region": "画面中左"
+    },
+    {
+      "episode": 40,
+      "length": 411,
+      "region": "画面下左"
+    },
+    {
+      "episode": 41,
+      "length": 455,
+      "region": "画面下左"
+    },
+    {
+      "episode": 42,
+      "length": 444,
+      "region": "画面下左"
+    },
+    {
+      "episode": 43,
+      "length": 453,
+      "region": "画面下左"
+    },
+    {
+      "episode": 44,
+      "length": 437,
+      "region": "画面下左"
+    },
+    {
+      "episode": 45,
+      "length": 429,
+      "region": "画面上中"
+    },
+    {
+      "episode": 46,
+      "length": 399,
+      "region": "画面上中"
+    },
+    {
+      "episode": 47,
+      "length": 425,
+      "region": "画面上中"
+    },
+    {
+      "episode": 48,
+      "length": 468,
+      "region": "画面上中"
+    },
+    {
+      "episode": 49,
+      "length": 437,
+      "region": "画面上中"
+    },
+    {
+      "episode": 50,
+      "length": 377,
+      "region": "画面上中"
+    },
+    {
+      "episode": 51,
+      "length": 383,
+      "region": "画面中中"
+    },
+    {
+      "episode": 52,
+      "length": 412,
+      "region": "画面中中"
+    },
+    {
+      "episode": 53,
+      "length": 486,
+      "region": "画面中中"
+    },
+    {
+      "episode": 54,
+      "length": 456,
+      "region": "画面中中"
+    },
+    {
+      "episode": 55,
+      "length": 368,
+      "region": "画面中中"
+    },
+    {
+      "episode": 56,
+      "length": 358,
+      "region": "画面中中"
+    },
+    {
+      "episode": 57,
+      "length": 435,
+      "region": "画面下中"
+    },
+    {
+      "episode": 58,
+      "length": 392,
+      "region": "画面下中"
+    },
+    {
+      "episode": 59,
+      "length": 449,
+      "region": "画面下中"
+    },
+    {
+      "episode": 60,
+      "length": 456,
+      "region": "画面下中"
+    },
+    {
+      "episode": 61,
+      "length": 519,
+      "region": "画面下中"
+    },
+    {
+      "episode": 62,
+      "length": 440,
+      "region": "画面上中"
+    },
+    {
+      "episode": 63,
+      "length": 546,
+      "region": "画面上中"
+    },
+    {
+      "episode": 64,
+      "length": 457,
+      "region": "画面上右"
+    },
+    {
+      "episode": 65,
+      "length": 506,
+      "region": "画面上右"
+    },
+    {
+      "episode": 66,
+      "length": 390,
+      "region": "画面上右"
+    },
+    {
+      "episode": 67,
+      "length": 409,
+      "region": "画面上右"
+    },
+    {
+      "episode": 68,
+      "length": 405,
+      "region": "画面中右"
+    },
+    {
+      "episode": 69,
+      "length": 416,
+      "region": "画面中右"
+    },
+    {
+      "episode": 70,
+      "length": 427,
+      "region": "画面中右"
+    },
+    {
+      "episode": 71,
+      "length": 383,
+      "region": "画面中中"
+    },
+    {
+      "episode": 72,
+      "length": 425,
+      "region": "画面下右"
+    },
+    {
+      "episode": 73,
+      "length": 395,
+      "region": "画面下中"
+    },
+    {
+      "episode": 74,
+      "length": 453,
+      "region": "画面下中"
+    },
+    {
+      "episode": 75,
+      "length": 423,
+      "region": "画面下中"
+    },
+    {
+      "episode": 76,
+      "length": 454,
+      "region": "画面下右"
+    },
+    {
+      "episode": 77,
+      "length": 388,
+      "region": "画面下右"
+    },
+    {
+      "episode": 78,
+      "length": 362,
+      "region": "画面中右"
+    },
+    {
+      "episode": 79,
+      "length": 381,
+      "region": "画面中中"
+    },
+    {
+      "episode": 80,
+      "length": 385,
+      "region": "画面中中"
+    },
+    {
+      "episode": 81,
+      "length": 471,
+      "region": "画面中中"
+    },
+    {
+      "episode": 82,
+      "length": 539,
+      "region": "画面中中"
+    },
+    {
+      "episode": 83,
+      "length": 670,
+      "region": "画面中中"
+    },
+    {
+      "episode": 84,
+      "length": 394,
+      "region": "画面中右"
+    },
+    {
+      "episode": 85,
+      "length": 365,
+      "region": "画面下中"
+    },
+    {
+      "episode": 86,
+      "length": 430,
+      "region": "画面下中"
+    },
+    {
+      "episode": 87,
+      "length": 394,
+      "region": "画面下中"
+    },
+    {
+      "episode": 88,
+      "length": 495,
+      "region": "画面下右"
+    },
+    {
+      "episode": 89,
+      "length": 382,
+      "region": "画面中右"
+    },
+    {
+      "episode": 90,
+      "length": 444,
+      "region": "画面下中"
+    },
+    {
+      "episode": 91,
+      "length": 402,
+      "region": "画面中右"
+    },
+    {
+      "episode": 92,
+      "length": 400,
+      "region": "画面中右"
+    },
+    {
+      "episode": 93,
+      "length": 511,
+      "region": "画面上中"
+    },
+    {
+      "episode": 94,
+      "length": 511,
+      "region": "画面上中"
+    },
+    {
+      "episode": 95,
+      "length": 399,
+      "region": "画面上中"
+    },
+    {
+      "episode": 96,
+      "length": 439,
+      "region": "画面上中"
+    },
+    {
+      "episode": 97,
+      "length": 454,
+      "region": "画面上左"
+    },
+    {
+      "episode": 98,
+      "length": 403,
+      "region": "画面上左"
+    },
+    {
+      "episode": 99,
+      "length": 393,
+      "region": "画面中中"
+    },
+    {
+      "episode": 100,
+      "length": 379,
+      "region": "画面下中"
+    },
+    {
+      "episode": 101,
+      "length": 406,
+      "region": "画面中中"
+    },
+    {
+      "episode": 102,
+      "length": 595,
+      "region": "画面上中"
+    },
+    {
+      "episode": 103,
+      "length": 468,
+      "region": "画面上中"
+    },
+    {
+      "episode": 104,
+      "length": 393,
+      "region": "画面上中"
+    },
+    {
+      "episode": 105,
+      "length": 464,
+      "region": "画面中中"
+    },
+    {
+      "episode": 106,
+      "length": 399,
+      "region": "画面上中"
+    },
+    {
+      "episode": 107,
+      "length": 501,
+      "region": "画面下中"
+    },
+    {
+      "episode": 108,
+      "length": 442,
+      "region": "画面下中"
+    },
+    {
+      "episode": 109,
+      "length": 486,
+      "region": "画面下中"
+    },
+    {
+      "episode": 110,
+      "length": 402,
+      "region": "画面中中"
+    },
+    {
+      "episode": 111,
+      "length": 426,
+      "region": "画面中中"
+    },
+    {
+      "episode": 112,
+      "length": 392,
+      "region": "画面上右"
+    },
+    {
+      "episode": 113,
+      "length": 443,
+      "region": "画面下左"
+    },
+    {
+      "episode": 114,
+      "length": 396,
+      "region": "画面中中"
+    },
+    {
+      "episode": 115,
+      "length": 451,
+      "region": "画面下左"
+    },
+    {
+      "episode": 116,
+      "length": 401,
+      "region": "画面下左"
+    },
+    {
+      "episode": 117,
+      "length": 424,
+      "region": "画面下右"
+    },
+    {
+      "episode": 118,
+      "length": 425,
+      "region": "画面下右"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "checkpoint": "002000 EMA",
+  "split": "test (25 episodes)",
+  "all_frames": true,
+  "samples": 10943,
+  "metric": "teacher-forced flow-matching loss",
+  "flow_loss_mean": 0.033900425823055094,
+  "peak_gpu_memory_gb": 10.61,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU (12 GB)",
+  "episodes": {
+    "0": {
+      "flow_loss_mean": 0.03749219280912688,
+      "samples": 475
+    },
+    "1": {
+      "flow_loss_mean": 0.02945991806459047,
+      "samples": 440
+    },
+    "2": {
+      "flow_loss_mean": 0.05127372363324779,
+      "samples": 496
+    },
+    "3": {
+      "flow_loss_mean": 0.03251371130289044,
+      "samples": 500
+    },
+    "4": {
+      "flow_loss_mean": 0.042136019959715554,
+      "samples": 417
+    },
+    "5": {
+      "flow_loss_mean": 0.02207503233771454,
+      "samples": 455
+    },
+    "6": {
+      "flow_loss_mean": 0.03943548835611943,
+      "samples": 453
+    },
+    "7": {
+      "flow_loss_mean": 0.028317194263799233,
+      "samples": 358
+    },
+    "8": {
+      "flow_loss_mean": 0.041320099005544626,
+      "samples": 405
+    },
+    "9": {
+      "flow_loss_mean": 0.030706019159319673,
+      "samples": 416
+    },
+    "10": {
+      "flow_loss_mean": 0.03344121142050854,
+      "samples": 425
+    },
+    "11": {
+      "flow_loss_mean": 0.03330322935489151,
+      "samples": 381
+    },
+    "12": {
+      "flow_loss_mean": 0.023952221398538504,
+      "samples": 670
+    },
+    "13": {
+      "flow_loss_mean": 0.028000358152899096,
+      "samples": 394
+    },
+    "14": {
+      "flow_loss_mean": 0.030799234171847698,
+      "samples": 365
+    },
+    "15": {
+      "flow_loss_mean": 0.03396458829281983,
+      "samples": 400
+    },
+    "16": {
+      "flow_loss_mean": 0.04132216905091381,
+      "samples": 454
+    },
+    "17": {
+      "flow_loss_mean": 0.043687722372824485,
+      "samples": 403
+    },
+    "18": {
+      "flow_loss_mean": 0.03531825002861863,
+      "samples": 379
+    },
+    "19": {
+      "flow_loss_mean": 0.032216316043277085,
+      "samples": 464
+    },
+    "20": {
+      "flow_loss_mean": 0.026808111758959273,
+      "samples": 399
+    },
+    "21": {
+      "flow_loss_mean": 0.041841375830409235,
+      "samples": 501
+    },
+    "22": {
+      "flow_loss_mean": 0.027259996718479736,
+      "samples": 442
+    },
+    "23": {
+      "flow_loss_mean": 0.034414791100992694,
+      "samples": 426
+    },
+    "24": {
+      "flow_loss_mean": 0.027081942612866818,
+      "samples": 425
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# 模型权重与 checkpoint
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+/outputs/
+/checkpoints/
+/models/
+
+# 数据集与运行产物
+/datasets/
+/eval_outputs/
+wandb/
+*.log
+*.mp4
+!/assets/demo.mp4
+
+# Python 与开发缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+
+# 凭据
+.env
+.env.*
+*.pem
+*.key
